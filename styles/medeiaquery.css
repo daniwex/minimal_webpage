@@ -1,0 +1,24 @@
+/* Styles for screens larger than 900px */
+@media (min-width: 901px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form{
+        display: inline;
+        width: 30%;
+    }
+    .section form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+    form input[type='submit']{
+        width: 30%;
+    }
+    .video-section{
+        display: grid !important;
+        grid-template-columns: repeat(2,49%);
+        column-gap: 20px;
+    }
+}
